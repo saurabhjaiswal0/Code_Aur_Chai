@@ -4,7 +4,7 @@ const myArr = [0,1,2,3,4,true,"Hitesh"]
 
 // console.log(myArr[0])
 
-//Array Methods
+//Array Methods********************************
 
 // myArr.push(0)
 // myArr.push(7)
