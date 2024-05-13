@@ -17,10 +17,19 @@
 // addTwoNumber(3,4)
 
 
-function addTwoNumber(number1,number2){
-    let result = number1 + number2
-    return result
+// function addTwoNumber(number1,number2){
+//     let result = number1 + number2
+//     return result
+// }
+// const result = addTwonumber(3,5)
+// console.log("Result :",result);
+
+function loginUserMessage(username){
+    if(username===undefined){
+        console.log("Please enter a username")
+        return
+    }
+    return `${username} is just logged in`
 }
-const result = addTwonumber(3,5)
-console.log("Result :",result);
+console.log(loginUserMessage());
 
