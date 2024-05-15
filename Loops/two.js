@@ -10,7 +10,7 @@ let myArray=["Batman","Shaktiman","Superman"]
 
 let arr=0
 while(arr<myArray.length){
-    console.log(`value is ${myArray [arr]}`);
+    // console.log(`value is ${myArray [arr]}`);
     arr = arr+1
 }
 
